@@ -2783,20 +2783,20 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Shy Guy (Surfing)",spr_KSW_Fish_ShyGuySurfing,spr_KSW_Fish_ShyGuySurfing_Pal,series_ShyGuySurfing,candy,2,grassBeach,KSW_Phases.day,20240);
 	scr_KSW_AddFish("Gyro Zeppeli",spr_KSW_Fish_GyroZeppeli,spr_KSW_Fish_GyroZeppeli_Pal,series_JJBA,borange,3,serranoSprings,KSW_Phases.afternoon,200000);
 	scr_KSW_AddFish("Baoh",spr_KSW_Fish_Baoh,spr_KSW_Fish_Baoh_Pal,series_JJBA,mage,2,serranoSprings,KSW_Phases.night,19840);
-	scr_KSW_AddFish("The Bad Batter",spr_KSW_Fish_TheBadBatter,spr_KSW_Fish_TheBadBatter_Pal,series_OFF,mage,3,androidPort,KSW_Phases.night,10000);
+	scr_KSW_AddFish("The Bad Batter",spr_KSW_Fish_TheBadBatter,spr_KSW_Fish_TheBadBatter_Pal,series_OFF,mage,3,androidPort,KSW_Phases.night,10000,0,0,0,snd_KSW_Fish_OffFish);
 	scr_KSW_AddFish("The Batter",spr_KSW_Fish_TheBatter,spr_KSW_Fish_TheBatter_Pal,series_OFF,mage,1,grassBeach,KSW_Phases.none,1000,3,13);
 	scr_KSW_AddFish("The Judge",spr_KSW_Fish_TheJudge,spr_KSW_Fish_TheJudge_Pal,series_OFF,mage,1,grassBeach,KSW_Phases.day,1000);
 	scr_KSW_AddFish("Alpha, Omega, Epsilon",spr_KSW_Fish_AlphaOmegaEpsilon,spr_KSW_Fish_AlphaOmegaEpsilon_Pal,series_OFF,mage,1,creamCrevasse,KSW_Phases.none,3000,0,-30);
-	scr_KSW_AddFish("Common Specter",spr_KSW_Fish_CommonSpecter,spr_KSW_Fish_CommonSpecter_Pal,series_OFF,mage,0,anyStage,KSW_Phases.none,10,0,12);
-	scr_KSW_AddFish("One Eyed Specter",spr_KSW_Fish_OneEyedSpecter,spr_KSW_Fish_OneEyedSpecter_Pal,series_OFF,mage,0,anyStage,KSW_Phases.none,10,-6,2);
-	scr_KSW_AddFish("Fat Specter",Spr_KSW_Fish_FatSpecter,Spr_KSW_Fish_FatSpecter_Pal,series_OFF,mage,0,anyStage,KSW_Phases.none,100,-5,15);
+	scr_KSW_AddFish("Common Specter",spr_KSW_Fish_CommonSpecter,spr_KSW_Fish_CommonSpecter_Pal,series_OFF,mage,0,anyStage,KSW_Phases.none,10,0,12,0,snd_KSW_Fish_OffFish);
+	scr_KSW_AddFish("One Eyed Specter",spr_KSW_Fish_OneEyedSpecter,spr_KSW_Fish_OneEyedSpecter_Pal,series_OFF,mage,0,anyStage,KSW_Phases.none,10,-6,2,0,snd_KSW_Fish_OffFish);
+	scr_KSW_AddFish("Fat Specter",Spr_KSW_Fish_FatSpecter,Spr_KSW_Fish_FatSpecter_Pal,series_OFF,mage,0,anyStage,KSW_Phases.none,100,-5,15,0,snd_KSW_Fish_OffFish);
 	scr_KSW_AddFish("Dedan",Spr_KSW_Fish_Dedan,Spr_KSW_Fish_Dedan_Pal,series_OFF,mage,2,creamCrevasse,KSW_Phases.day,10000,-8,8);
 	scr_KSW_AddFish("Japhet",Spr_KSW_Fish_Japhet,Spr_KSW_Fish_Japhet_Pal,series_OFF,mage,2,hallowReen,KSW_Phases.afternoon,20000);
 	scr_KSW_AddFish("Enoch",Spr_KSW_Fish_Enoch,Spr_KSW_Fish_Enoch_Pal,series_OFF,mage,2,creamCrevasse,KSW_Phases.night,30000);
-	scr_KSW_AddFish("Delta, Ipsilon, Sigma",Spr_KSW_Fish_DeltaIpsilonSigma,Spr_KSW_Fish_DeltaIpsilonSigma_Pal,series_OFF,mage,2,androidPort,KSW_Phases.none,1000);
-	scr_KSW_AddFish("The Queen",Spr_KSW_Fish_TheQueen,Spr_KSW_Fish_TheQueen_PAL,series_OFF,mage,2,androidPort,KSW_Phases.none,1000);
-	scr_KSW_AddFish("Hugo (OFF)",Spr_KSW_Fish_HugoOff,Spr_KSW_Fish_HugoOff_Pal,series_OFF,mage,3,androidPort,KSW_Phases.none,100000);
-	scr_KSW_AddFish("Sugar",SPR_KSW_Fish_Sugar,SPR_KSW_Fish_Sugar_Pal,series_OFF,mage,3,grassBeach,KSW_Phases.none,100000);
+	scr_KSW_AddFish("Delta, Ipsilon, Sigma",Spr_KSW_Fish_DeltaIpsilonSigma,Spr_KSW_Fish_DeltaIpsilonSigma_Pal,series_OFF,mage,2,androidPort,KSW_Phases.none,12008);
+	scr_KSW_AddFish("The Queen",Spr_KSW_Fish_TheQueen,Spr_KSW_Fish_TheQueen_PAL,series_OFF,mage,2,androidPort,KSW_Phases.none,12008,0,0,0,snd_KSW_Fish_TheQueen);
+	scr_KSW_AddFish("Hugo (OFF)",Spr_KSW_Fish_HugoOff,Spr_KSW_Fish_HugoOff_Pal,series_OFF,mage,3,androidPort,KSW_Phases.none,102008,0,0,0,snd_KSW_Fish_HugoOff);
+	scr_KSW_AddFish("Sugar",SPR_KSW_Fish_Sugar,SPR_KSW_Fish_Sugar_Pal,series_OFF,mage,3,grassBeach,KSW_Phases.none,102008,0,0,0,snd_KSW_Fish_Sugar);
 	scr_KSW_AddFish("The World According To Fish",spr_KSW_Fish_TheWorldAccordingToFish,spr_KSW_Fish_TheWorldAccordingToFish_Pal,series_Misc,mage,3,anyStage,KSW_Phases.none,100000);
 	scr_KSW_AddFish("Nowak",spr_KSW_Fish_Nowak,spr_KSW_Fish_Nowak_Pal,series_BrutalOrchestra,glimmer,0,anyStage,KSW_Phases.none,2300);
 	scr_KSW_AddFish("Bosch",spr_KSW_Fish_Bosch,spr_KSW_Fish_Bosch_Pal,series_BrutalOrchestra,flux,0,anyStage,KSW_Phases.none,2300);
@@ -3590,6 +3590,19 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Tsurumaru Tsuyoshi",spr_KSW_Fish_TsurumaruTsuyoshi,spr_KSW_Fish_TsurumaruTsuyoshi_Pal,series_Umamusume,glimmer,2,cloudyPark,KSW_Phases.afternoon,1600);
 	scr_KSW_AddFish("Vodka",spr_KSW_Fish_Vodka,spr_KSW_Fish_Vodka_Pal,series_Umamusume,legion,2,grassBeach,KSW_Phases.afternoon,1650);
 	scr_KSW_AddFish("Gold Ship (GGA 2)",spr_KSW_Fish_GoldshipGoldshisGrandAdventure2,spr_KSW_Fish_GoldshipGoldshisGrandAdventure2_Pal,series_Umamusume,candy,3,androidPort,KSW_Phases.none,12000);
+	scr_KSW_AddFish("Source",spr_KSW_Fish_Source,spr_KSW_Fish_Source_Pal,series_OFF,mint,1,cloudyPark,KSW_Phases.day,2025,0,0,0,snd_KSW_Fish_Source);
+	scr_KSW_AddFish("Malidicion",spr_KSW_Fish_Maldicion,spr_KSW_Fish_Maldicion_Pal,series_OFF,mage,1,cloudyPark,KSW_Phases.night,2025,5,-4,0,snd_KSW_Fish_Maldicion);
+	scr_KSW_AddFish("Psalmanazar and Herodotus",spr_KSW_Fish_PsalmHerod,spr_KSW_Fish_PsalmHerod_Pal,series_OFF,mage,2,cloudyPark,KSW_Phases.day,12025,0,0,0,snd_KSW_Fish_PsalmHerod);
+	scr_KSW_AddFish("Justus",spr_KSW_Fish_Justus,spr_KSW_Fish_Justus_Pal,series_OFF,mint,2,cloudyPark,KSW_Phases.night,12025,0,11,0,snd_KSW_Fish_Justus);
+	scr_KSW_AddFish("Carnival",spr_KSW_Fish_Carnival,spr_KSW_Fish_Carnival_Pal,series_OFF,flux,3,cloudyPark,KSW_Phases.day,102025,0,11,0,snd_KSW_Fish_Carnival);
+	scr_KSW_AddFish("Cob",spr_KSW_Fish_Cob,spr_KSW_Fish_Cob_Pal,series_OFF,candy,3,cloudyPark,KSW_Phases.night,102025,0,0,0,snd_KSW_Fish_Cob);
+	scr_KSW_AddFish("Flying enoch",spr_KSW_Fish_FlyingEnoch,spr_KSW_Fish_FlyingEnoch_Pal,series_OFF,mage,2,cloudyPark,KSW_Phases.none,10000,0,0,0,snd_KSW_Fish_FlyingEnoch);
+	scr_KSW_AddFish("Baleine",spr_KSW_Fish_Baleine,spr_KSW_Fish_Baleine_Pal,series_OFF,mage,1,anyStage,KSW_Phases.none,100000,0,0,0,snd_KSW_Fish_OffFish);
+	scr_KSW_AddFish("Blind Specter",spr_KSW_Fish_BlindSpecter,spr_KSW_Fish_BlindSpecter_Pal,series_OFF,mage,0,anyStage,KSW_Phases.none,1000,0,0,0,snd_KSW_Fish_OffFish);
+	scr_KSW_AddFish("Crown of the dead",spr_KSW_Fish_Crownofthedead,spr_KSW_Fish_Crownofthedead_Pal,series_OFF,mage,0,anyStage,KSW_Phases.none,1000,0,0,0,snd_KSW_Fish_OffFish);
+	scr_KSW_AddFish("Infernal Specter",spr_KSW_Fish_InfernalSpecter,spr_KSW_Fish_InfernalSpecter_Pal,series_OFF,mage,0,anyStage,KSW_Phases.none,1000,0,0,0,snd_KSW_Fish_OffFish);
+	scr_KSW_AddFish("Porter Specter",spr_KSW_Fish_PorterSpecter,spr_KSW_Fish_PorterSpecter_Pal,series_OFF,mage,1,anyStage,KSW_Phases.none,10000,0,0,0,snd_KSW_Fish_OffFish);
+	scr_KSW_AddFish("UpsideDown Specter",spr_KSW_Fish_UpsideDownSpecter,spr_KSW_Fish_UpsideDownSpecter_Pal,series_OFF,mage,0,anyStage,KSW_Phases.none,1000,0,0,0,snd_KSW_Fish_OffFish);
 	#endregion
 	#endregion
 }
